@@ -1,0 +1,35 @@
+.sorting-dropdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 4px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.custom-sorting-dropdown {
+  color: gray;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #cccccc;
+  appearance: none;
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><polygon points="0,0 20,0 10,10" style="fill:black;"/></svg>'); /* Açılır ok ikonu */
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%; 
+  background-size: 12px; 
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.custom-sorting-dropdown:focus {
+  border-color: #6666ff;
+  outline: none;
+}
+
+.custom-sorting-dropdown option {
+  padding: 10px;
+}

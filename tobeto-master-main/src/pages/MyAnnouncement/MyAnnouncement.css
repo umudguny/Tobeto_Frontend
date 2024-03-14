@@ -1,0 +1,316 @@
+.edus-banner-card {
+  background-image: url("https://tobeto.com/_next/static/media/edu-banner3.d7dc50ac.svg");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  margin: 15px;
+  border-radius: 15px;
+  background-position: 50%;
+  justify-content: flex-start;
+  border-radius: 20px;
+  margin-bottom: 1.5em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.edus-banner-card span {
+  color: #fff;
+  font-size: 5vw;
+  font-weight: 600;
+  padding-left: 25px;
+}
+
+/* filtre*/
+
+.filtre-row {
+  justify-content: center;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+  padding: 5px 10px;
+  background-color: white;
+  margin-left: 12px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-input,
+.search-button {
+  height: 40px;
+}
+
+.search-input::placeholder {
+  color: #a9a9a9;
+}
+
+.search-input:focus {
+  box-shadow: 0 0 0 2px #eaeaea;
+}
+
+.dropdown-container {
+  background-color: white !important;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  height: auto;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+  border-radius: 26px;
+  padding: 0px;
+}
+
+.custom-dropdown {
+  width: 100%; 
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #cbc8c8;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none; 
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><polygon points="0,0 20,0 10,10" style="fill:black;"/></svg>'); /* Açılır ok ikonu */
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+  background-size: 12px; 
+  cursor: pointer;
+  font-size: 14px; 
+  color: gray;
+}
+
+.custom-dropdown option[value=""][disabled] {
+  display: none;
+}
+
+.custom-dropdown:focus {
+  border-color: #2525ab;
+  outline: none;
+}
+
+.custom-dropdown option {
+  padding: 10px; 
+}
+
+.custom-dropdown.open {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><polygon points="10,0 20,10 0,10" style="fill:black;"/></svg>');
+}
+
+.is-read-btn {
+  padding-top: 12px;
+  border: none;
+  color: blueviolet;
+  background-color: white;
+}
+
+button.anc-link {
+  background: none;
+  border: none;
+  color: rgb(171, 169, 169);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+.anc-card {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  height: 100%;
+  max-width: 430px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+  border-left: 6px solid #076b34 !important; /* Yeşil çizgi buraya taşındı */
+  line-height: 20px;
+  padding-top: 4px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.anc-card-check {
+  font-weight: 200;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 17px;
+  color: gray;
+  word-spacing: 2px;
+}
+
+.p-anc-status-indicator {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #07803d;
+  color: white;
+  font-weight: lighter;
+  border-radius: 12px 0px 0px 12px;
+  font-size: 14px;
+  line-height: 0.7;
+  white-space: nowrap; 
+  user-select: none; 
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  margin-top: 7px;
+  margin-right: -17px;
+}
+
+.anc-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.anc-title {
+  color: #08ae53;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.anc-ik {
+  justify-content: end;
+}
+
+.anc-link {
+  color: #bdbcbc; 
+  text-decoration: none; 
+  font-weight: lighter; 
+  transition: color 0.3s;
+  text-align: end;
+
+  &:hover {
+    color: #bdbcbc;
+  }
+}
+
+.anc-date-row {
+  justify-content: space-between;
+}
+
+.anc-date {
+  color: #bdbcbc;
+  font-weight: lighter;
+}
+
+/* Announcement */
+
+button.anc-link {
+  background: none;
+  border: none;
+  color: rgb(171, 169, 169);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+.anc-card {
+  margin-top: 35px;
+  margin-left: 0px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  height: 85%;
+  max-width: 430px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+  border-left: 6px solid #076b34 !important; 
+  line-height: 20px;
+  padding-top: 4px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.anc-card-check {
+  font-weight: 200;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 17px;
+  color: gray;
+  word-spacing: 2px;
+}
+
+.p-anc-status-indicator {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #07803d;
+  color: white;
+  font-weight: lighter;
+  border-radius: 12px 0px 0px 12px;
+  font-size: 14px;
+  line-height: 0.7;
+  white-space: nowrap; 
+  user-select: none; 
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  margin-top: 7px;
+  margin-right: -17px;
+}
+
+.anc-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+
+.anc-title {
+  color: #08ae53;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.anc-ik {
+  justify-content: end;
+}
+
+.anc-link {
+  color: #bdbcbc; 
+  text-decoration: none; 
+  font-weight: lighter; 
+  transition: color 0.3s; 
+  text-align: end;
+
+  &:hover {
+    color: #bdbcbc;
+  }
+}
+
+.anc-date-row {
+  justify-content: space-between;
+}
+
+.anc-date {
+  color: #bdbcbc;
+  font-weight: lighter;
+}
+
+/*  buton  */
+.wave-button {
+  width: 170px;
+  border-radius: 12px;
+}

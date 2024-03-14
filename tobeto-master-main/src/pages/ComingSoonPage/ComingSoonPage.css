@@ -1,0 +1,25 @@
+.backgroundDiv {
+  background-image: url("../../../public/images/PageComingSoon.jpg");
+  min-height: 100vh; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  overflow: hidden;
+}
+
+.sya {
+  color: rgb(249, 191, 0);
+  font-size: 65px;
+  text-align: center;
+  padding-top: 180px;
+  font-weight: bolder;
+  text-shadow: 2px 8px 6px rgba(70, 56, 1, 0.5);
+  transition: all 0.3s ease;
+}
+
+.sya:hover {
+  color: rgb(249, 215, 0); 
+  text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05); 
+}

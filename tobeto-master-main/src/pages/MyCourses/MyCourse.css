@@ -1,0 +1,144 @@
+.edus-banner-card {
+  background-image: url("https://tobeto.com/_next/static/media/edu-banner3.d7dc50ac.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 15px;
+  border-radius: 15px;
+  background-position: 50%;
+  justify-content: flex-start;
+  border-radius: 20px;
+  margin-bottom: 1.5em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.edus-banner-card span {
+  color: #fff;
+  font-size: 5vw;
+  font-weight: 600;
+  padding-left: 25px;
+}
+
+/* filtre*/
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+  padding: 5px 10px;
+  background-color: white;
+  margin-left: 12px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-input,
+.search-button {
+  height: 40px;
+}
+
+.search-input::placeholder {
+  color: #a9a9a9;
+}
+
+.search-input:focus {
+  box-shadow: 0 0 0 2px #eaeaea;
+}
+
+.dropdown-container {
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 4px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.custom-dropdown {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #cbc8c8;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><polygon points="0,0 20,0 10,10" style="fill:black;"/></svg>'); /* Açılır ok ikonu */
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+  background-size: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  color: gray;
+}
+
+.custom-dropdown option[value=""][disabled] {
+  display: none;
+}
+
+.custom-dropdown:focus {
+  border-color: #2525ab;
+  outline: none;
+}
+
+.custom-dropdown option {
+  padding: 10px;
+}
+
+/*Tabs*/
+
+.c-tab-list {
+  margin: 10px 20px 0px 20px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.c-tab-list-item {
+  padding: 3px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  color: rgb(150, 150, 151);
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 0.3s;
+}
+
+.c-tab-list-item.active {
+  border-bottom: 3px solid rgb(28, 28, 28);
+  opacity: 80%;
+  color: black;
+}
+
+.c-tab-content {
+  margin: 20px;
+}
+
+/* Eğitimlerim */
+
+.edu-area {
+  padding: 20px;
+  margin: auto;
+  max-width: 1200px;
+}

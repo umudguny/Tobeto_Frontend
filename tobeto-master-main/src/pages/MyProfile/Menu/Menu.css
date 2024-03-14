@@ -1,0 +1,59 @@
+.menu {
+  padding: 15px 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu a {
+  padding: 10px;
+  color: rgb(68, 68, 68); 
+  text-decoration: none;
+}
+
+.menu .active {
+  color: purple; 
+  position: relative;
+}
+
+.menu .active::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  right: 12px;
+  width: 2px;
+  height: 80%;
+  background-color: purple; 
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: row;
+    justify-content: space-around; 
+  }
+  .menu span {
+    display: none;
+  }
+
+  .menu a {
+    padding: 5px;
+    font-size: 0.8rem; 
+  }
+
+  .menu .active::after {
+    content: "";
+    position: absolute;
+    bottom: -10px; 
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 80%;
+    height: 2px; 
+    background-color: purple;
+    border-radius: 1px; 
+  }
+
+  .menu-icn {
+    width: 28px;
+  }
+}

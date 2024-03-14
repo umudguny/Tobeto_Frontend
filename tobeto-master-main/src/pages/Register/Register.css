@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+.login {
+  width: 360px;
+  margin: auto;
+  font-family: "Comfortaa", cursive;
+  position: relative;
+}
+
+.login-main {
+  display: flex;
+}
+
+.card-login-animation {
+  margin-top: 50px;
+  padding: 3px;
+  width: 410px;
+  height: 365px;
+  background: linear-gradient(
+    90deg,
+    #56a2bd 0%,
+    #6610f2 10%,
+    #d63384 20%,
+    #fc5c46 30%,
+    purple 40%,
+    pink 50%,
+    #0dcaf0 60%,
+    white 70%,
+    azure 80%,
+    brown 90%,
+    darkgreen 100%
+  );
+  border-radius: 15px;
+  background-size: 200% 200%;
+  animation: anim 4s linear infinite;
+}
+
+.card-body {
+  width: 100%;
+  height: 100%;
+  background-color: #121212;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-right {
+  width: 360px;
+  height: 200px;
+  margin: auto;
+  font-family: "Comfortaa", cursive;
+  position: relative;
+}
+
+.card-right {
+  margin-top: 50px;
+  padding: 3px;
+  width: 410px;
+  height: 365px;
+  background: linear-gradient(
+    360deg,
+    #56a2bd 0%,
+    #6610f2 10%,
+    #d63384 20%,
+    #fc5c46 30%,
+    purple 40%,
+    pink 50%,
+    #0dcaf0 60%,
+    white 70%,
+    azure 80%,
+    #34515b 90%,
+    #0c3d4e 100%
+  );
+  border-radius: 15px;
+  background-size: 200% 200%;
+  animation: anim 4s linear infinite;
+}
+
+@keyframes anim {
+  100% {
+    background-position-x: -200%;
+  }
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  width: 400px;
+  background: #ffffff;
+  border-radius: 10px;
+  max-width: 860px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+}
+
+.form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 300px;
+  border: 0;
+  border-radius: 5px;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: "Comfortaa", cursive;
+}
+
+.form input:focus {
+  background: #dbdbdb;
+}
+
+.form button {
+  font-family: "Comfortaa", cursive;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4b6cb7;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.form button:active {
+  background: #395591;
+}
+
+.form span {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 25px;
+  display: block;
+}
+
+.form p.error {
+  margin: 0 0 10px 10px;
+  text-align: left;
+  font-size: 10px;
+  color: red;
+}
+
+.right-card {
+  width: 450px;
+}
+
+.right-card-bottom-logo Button {
+  background-color: rgb(30, 15, 65);
+  color: rgb(15, 193, 203);
+  border-radius: 15px;
+  font-size: "12px";
+}
+.rigth-card-job span {
+  color: black !important;
+  font-size: 10px !important;
+}
+
+.bordered {
+  border: 1px solid red;
+}
+
+.rt-in-area {
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.rt-out {
+  height: 660px;
+  margin-left: 25px;
+}
+
+.lf-in-area {
+  height: 100%;
+}
+
+.lf-out {
+  height: 660px;
+}
+
+.rt-btn {
+  width: 150px !important;
+  height: 32px;
+  border-radius: 25px !important;
+  font-weight: bolder;
+  color: #0dcaf0 !important;
+  background-color: #1e0f41 !important ;
+  font-size: 14px !important;
+  line-height: 8px;
+}
+
+.ik-logo-rt {
+  width: 240px;
+}
+
+.rt-start-logo {
+  width: 100px;
+  justify-content: start !important;
+}
+
+.form-spn {
+  font-size: 35px !important ;
+  margin-top: 25px;
+  font-weight: bolder;
+}
+
+.lt-area-btm-spn {
+  margin-top: 15px;
+  color: gray !important;
+  font-size: 16px !important;
+}
+
+.lt-area-btm-link {
+  color: #202020;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.lt-area-btm-link:hover {
+  color: #202020 !important;
+}
+
+.btn-rgst {
+  border-radius: 20px !important;
+  line-height: 8px;
+  background-color: blueviolet !important;
+  opacity: 85%;
+}

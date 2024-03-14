@@ -1,0 +1,26 @@
+.navbar-brand {
+  margin: 0;
+  position: fixed;
+  left: 0;
+}
+
+.profile {
+  margin: 0;
+  position: fixed;
+  right: 0;
+  padding-right: 35px;
+}
+
+.nav-link.p-4 {
+  font-weight: bolder !important;
+  border-radius: 50px;
+}
+
+.nav-link.p-4:hover {
+  color: #9933ff !important;
+  background-color: rgb(185, 184, 184, 0.2);
+}
+
+.active {
+  color: #9933ff !important;
+}

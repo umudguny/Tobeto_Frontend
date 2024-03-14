@@ -1,0 +1,37 @@
+.lang-lvl-btn {
+  margin-top: 10px;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+}
+
+.lang-lvl-btn:hover {
+  background-color: rgb(97, 9, 179);
+}
+
+.dropdown-select {
+  position: relative;
+}
+
+.dropdown-select::after {
+  content: "";
+  position: absolute;
+  right: 10px; 
+  top: 50%; 
+  transform: translateY(-50%);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #000 !important; 
+  pointer-events: none;
+}
+
+.lang-level-dlt {
+  margin-left: 10px;
+  width: 18px;
+  color: rgb(235, 76, 76);
+}
+
+.lang-lvls {
+  line-height: 45px;
+}

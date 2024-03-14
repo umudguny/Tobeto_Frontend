@@ -1,0 +1,149 @@
+.all {
+  background-color: black;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+
+.container-cn {
+  background-color: #faf7f7;
+  height: 800px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.bordered {
+  border: 1px solid rgb(216, 213, 213);
+}
+
+.connection-left {
+  height: 800px;
+  padding: 15px;
+  padding-left: 20px;
+  border-radius: 12px;
+  width: 49.5%;
+  background-color: white;
+}
+
+.connection-right {
+  height: 800px;
+  padding: 15px;
+  border-radius: 12px;
+  width: 49.5%;
+  background-color: white;
+}
+
+.top-span {
+  font-size: 12px;
+  width: 100px;
+  font-weight: bold;
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+  height: 22px;
+  justify-content: center;
+  box-shadow: none;
+  border: none;
+  border-radius: 3px;
+}
+
+.container-cn h2 {
+  font-weight: bold;
+}
+
+.container-cn table {
+  text-align: left;
+  font-size: 14px;
+  width: 100% !important;
+  padding-left: 30px;
+  padding-top: 12px;
+}
+
+.td1 {
+  font-weight: bold;
+  width: 100px;
+}
+
+.td2 {
+  padding-left: -20px;
+  color: gray;
+}
+
+.container-cn table tr {
+  border-bottom: 1px solid rgba(202, 202, 202, 30%);
+  margin-left: 30px;
+  height: 45px;
+  border-width: 100;
+}
+
+.table-cn {
+  padding-right: 30px;
+}
+
+.table-cn-2 {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.table-cn2-td1 {
+  font-weight: bold;
+}
+
+.table-cn2-td2 {
+  color: rgb(112, 113, 114);
+  padding-left: -100px;
+}
+
+.cn-form {
+  text-align: left;
+  padding-left: 30px;
+}
+
+.cn-form input {
+  border: 1px dotted gray;
+  border-radius: 3px;
+  width: 90%;
+  height: 45px;
+}
+
+.cn-form textarea {
+  border: 1px dotted gray;
+  border-radius: 3px;
+  width: 90%;
+  height: 185px;
+}
+
+.kvkk {
+  text-align: center !important;
+  font-size: 11px;
+  padding-right: 45px;
+  font-weight: 100;
+  color: gray;
+  opacity: 80%;
+}
+
+.kvkk span {
+  color: blueviolet;
+}
+
+.recaptcha {
+  margin-left: 45px;
+}
+
+.btn-cn {
+  box-shadow: none;
+  background-color: blueviolet;
+  color: white;
+  opacity: 85%;
+  border-radius: 17px;
+  width: 100px;
+  height: 35px;
+  border: none;
+}
+
+.btn-cn-dv {
+  text-align: center;
+  margin-right: 30px;
+}

@@ -1,0 +1,108 @@
+/* DropdownMenu.css */
+.ct-dropdown-container {
+  width: 318px;
+  border-radius: 8px;
+  background-color: #282828;
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 30px 15px 20px !important;
+  opacity: 95%;
+  margin: 0px 5px 5px 5px;
+}
+
+.filtre-menu-title {
+  width: 100%;
+  padding: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: 0.5px solid #8b8b8b;
+  margin-left: 10px;
+}
+
+.ct-dropdown {
+  width: 100%;
+  border-radius: 20px;
+  background-color: #41384a;
+  margin: 7px 7px;
+  line-height: 16px;
+  background: rgb(86, 67, 104);
+}
+
+.ct-dropdown-header {
+  padding: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-size: 16px;
+}
+
+.ct-dropdown-header .arrow::after {
+  content: "◄";
+  font-size: 16px;
+  bottom: 15px;
+  position: absolute;
+  right: 16px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.ct-dropdown-header .arrow.open::after {
+  transform: rotate(-90deg);
+}
+
+.ct-dropdown-body {
+  padding: 8px;
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 12px;
+  margin-right: 5px;
+}
+
+.ct-dropdown-body::-webkit-scrollbar {
+  width: 5px;
+}
+
+.ct-dropdown-body::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 3px;
+}
+
+.ct-dropdown-body::-webkit-scrollbar-thumb {
+  background: #9933ff;
+  border-radius: 3px;
+  padding-top: 5px;
+}
+
+.ct-dropdown-body::-webkit-scrollbar-thumb:hover {
+  background: #9b9b9b;
+}
+
+.ct-dropdown-body .dropdown-item {
+  padding: 8px 16px;
+  transition: background-color 0.3s;
+  font-size: 14px;
+}
+
+.ct-dropdown-item {
+  display: block;
+  padding: 8px 16px;
+}
+
+.ct-dropdown-item span {
+  padding-left: 8px;
+}
+
+.ct-dropdown-search {
+  margin-bottom: 16px;
+}
+
+.ct-dropdown-search input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  box-sizing: border-box;
+}

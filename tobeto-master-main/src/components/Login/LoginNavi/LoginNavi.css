@@ -1,0 +1,111 @@
+.ik-banner {
+  height: 70px;
+  background: #1e0f41;
+  width: -webkit-fill-available;
+}
+
+.ik-banner-top {
+  display: flex;
+  padding-top: 15px;
+  justify-content: space-between;
+}
+
+.ik-btn {
+  background: #00b078;
+  border: 3px solid #00b078;
+  border-radius: 2em;
+  padding: 0.5em 2em;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e0f41;
+}
+
+.text-ik {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.fw-bold {
+  font-weight: 700 !important;
+}
+
+.ik-logo-platform {
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.bordered {
+  border: 1px solid red;
+}
+
+.wave-button {
+  padding: 10px 25px;
+  border: 5px solid transparent;
+  background-color: rgb(50, 50, 50); /* Button background color */
+  background-image: linear-gradient(rgb(89, 88, 88), rgb(0, 0, 0));
+  color: white;
+  font-size: 14px;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.5s;
+}
+
+/* Animation for the border */
+@keyframes wave {
+  0% {
+    border-image: linear-gradient(to left, purple, rgb(246, 246, 108), cyan) 1;
+  }
+  100% {
+    border-image: linear-gradient(to right, purple, rgb(246, 246, 108), cyan) 1;
+  }
+}
+
+.wave-button {
+  height: 35px;
+  width: 130px !important;
+  animation: wave 2s linear infinite;
+  border-radius: 30px;
+  padding: 0;
+}
+
+.wave-button:hover {
+  color: black; 
+  background-image: linear-gradient(to right, purple 0%, cyan 50%, purple 100%);
+  background-size: 200% auto;
+  background-position: 100% -100%;
+  transition: color 0.5s;
+}
+
+.wave-button:hover {
+  animation: gradient 3s linear infinite;
+}
+
+.wave-button:active {
+  transform: translateY(4px);
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 200% center;
+  }
+  100% {
+    background-position: -200% center;
+  }
+}
+
+.login-button {
+box-shadow: none;
+background-color:rgb(50, 50, 50) ;
+background-image: linear-gradient(rgb(89, 88, 88), rgb(0, 0, 0));
+border-radius: 30px;
+border: 1px solid white;
+margin-right: 8px;
+color:#fff;
+height: 32px;
+width: 90px;
+}

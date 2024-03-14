@@ -1,0 +1,66 @@
+.password-change-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto; 
+}
+
+.input-group {
+  margin-bottom: 20px; 
+}
+
+.input-group label {
+  margin-top: 12px;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: lighter;
+  color: #666;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px !important; 
+  font-size: 16px; 
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #666; 
+}
+
+.btn-psw {
+  text-emphasis: center;
+  width: 95%;
+  height: 40px;
+  line-height: 10px;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white !important;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+  border-radius: 25px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-psw-change-password {
+  background-color: #8e44ad; 
+}
+
+.btn-psw-cancel-membership {
+  background-color: #e74c3c; 
+}
+
+.btn-psw:active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: translateY(2px);
+}
+
+.button-psw-container {
+  text-align: center; 
+}

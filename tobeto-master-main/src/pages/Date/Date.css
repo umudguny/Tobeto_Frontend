@@ -1,0 +1,31 @@
+.calendar-container {
+  padding: 20px;
+}
+
+.calendar-header {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.calendar-content {
+  margin-top: 20px;
+  color: black !important;
+}
+.calendar-content a {
+  margin-top: 20px;
+  color: black !important;
+  text-decoration: none;
+  font-size: small;
+}
+
+.calendar-header a {
+  margin-top: 20px;
+  color: black !important;
+  text-decoration: none;
+  font-size: small;
+}
+
+.custom-day-header {
+  font-weight: bold;
+}
